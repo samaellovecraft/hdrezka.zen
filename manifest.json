@@ -1,0 +1,43 @@
+{
+  "manifest_version": 2,
+  "name": "hdrezka.zen",
+  "description": "Удаляет все комментарии на HDrezka.",
+  "version": "1.1.1",
+  "author": "Samael Lovecraft",
+  "browser_action": {
+    "default_title": "Познать дзэн.",
+    "default_icon": "zen512.png"
+  },
+  "icons": {
+    "48": "zen48.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://rezka.ag/*",
+        "https://hdrezka.cm/*",
+        "https://hdrezka.club/*",
+        "http://hdrezka.me/*",
+        "http://hdrezka.tv/*",
+        "http://hdrezka.co/*",
+        "http://hdrezka.ink/*",
+        "http://hdrezka.buzz/*",
+        "http://hdrezka.loan/*",
+        "http://hdrezka.center/*",
+        "http://hdrezka.city/*",
+        "http://hdrezka.fyi/*",
+        "http://hdrezka.run/*",
+        "http://hdrezka.lol/*",
+        "http://hdrezka.today/*",
+        "http://hdrezka.win/*",
+        "http://hdrezka.tips/*",
+        "http://hdrezka.vip/*",
+        "http://hdrezka.gift/*",
+        "http://hdrezka.link/*",
+        "http://hdrezka.solutions/*",
+        "http://rezkily.com/*"
+      ],
+      "js": ["zen.js"]
+    }
+  ]
+}
