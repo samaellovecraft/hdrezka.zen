@@ -1,10 +1,10 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "hdrezka.zen",
   "description": "Удаляет все комментарии на HDrezka.",
-  "version": "1.1.1",
+  "version": "2.0.0",
   "author": "Samael Lovecraft",
-  "browser_action": {
+  "action": {
     "default_title": "Познать дзэн.",
     "default_icon": "zen512.png"
   },
