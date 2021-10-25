@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "hdrezka.zen",
   "description": "Удаляет все комментарии на HDrezka.",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "author": "Samael Lovecraft",
   "action": {
     "default_title": "Познать дзэн.",
@@ -17,6 +17,7 @@
         "https://rezka.ag/*",
         "https://hdrezka.cm/*",
         "https://hdrezka.club/*",
+        "https://hdrezka.sh/*",
         "http://hdrezka.me/*",
         "http://hdrezka.tv/*",
         "http://hdrezka.co/*",
